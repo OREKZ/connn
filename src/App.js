@@ -28,7 +28,6 @@ class App extends Component{
                         <Route path="/getcode" component={getcode}/> 
                         <Route exact path="/videoplayer/:slug/" component={videoplayer}/>
                         </IonRouterOutlet>
-                        <modal/>
                        </IonPage>
                  
                </IonApp> 
